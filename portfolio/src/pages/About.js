@@ -107,44 +107,44 @@ export default function About() {
               <h1 className="about__info__heading">Diplome</h1>
 
               <AboutInfoItem
-                title="Ecole :"
+                title="Formation :"
                 items={["O'Clock, format télépresentiel / Formation Développeur Web et Web Mobile  -> Obtenue"]}
               />
               <AboutInfoItem
-                title="Lycée"
-                items={['Saint Gabriel Notre Dame / Baccalauréat Professionnel Monteur Vendeur en Optique Lunetterie -> Obtenue']}
+                title="Lycée :"
+                items={[' Baccalauréat Professionnel Monteur Vendeur en Optique Lunetterie -> Obtenue']}
               />
             </div>
             <div className="about__info__item">
-              <h1 className="about__info__heading">My Skills</h1>
+              <h1 className="about__info__heading">Mes compétences</h1>
 
               <AboutInfoItem
-                title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                title="FrontEnd :"
+                items={['HTML', 'CSS', 'JavaScript', 'ReactJS', 'Bootstrap']}
               />
               <AboutInfoItem
-                title="BackEnd"
-                items={['Node', 'Express', 'PHP']}
+                title="BackEnd :"
+                items={['NodeJS', 'CMS : WordPress', 'PHP', 'C#']}
               />
               <AboutInfoItem
-                title="Design"
-                items={['Photoshop', 'After Effects', 'Figma']}
+                title="Other : "
+                items={['Photoshop', 'Whymsical', 'Figma', 'Trello', 'GITHUB', 'Methodologie Scrum']}
               />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
 
               <AboutInfoItem
-                title="2010-2012"
-                items={['junior developer at web Cifar']}
+                title="Mai 2021 - "
+                items={['Développeur Web / Réalisation de projets.']}
               />
               <AboutInfoItem
-                title="2012-2016"
-                items={['Front end developer at web Cifar ']}
+                title="Juillet 2020 - "
+                items={["Reconversion Professionnel dans le dév. "]}
               />
               <AboutInfoItem
-                title="2016-"
-                items={['Freelance web Developer']}
+                title="2016 - 2020"
+                items={["Monteur Vendeur en Optique Lunetterie en CDI / Optic 2000, La Souterraine (23)"]}
               />
             </div>
           </div>

@@ -160,10 +160,6 @@ export default function HeroSection() {
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
-            <PText className="hero_intro">
-              Dévenu développeur après une reconversion professionnel.
-              J'aimerais trouver de nouvelles expériences dans le web.
-            </PText>
             <Button btnText="Découvrir mon travail" btnLink="/projects" />
           </div>
           <div className="hero__social">

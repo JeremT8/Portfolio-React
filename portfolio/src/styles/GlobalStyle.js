@@ -13,6 +13,7 @@ const GlobalStyles = createGlobalStyle`
     --gray-2: #363636;
     --white : white;
     --black: black;
+    --orange: #ec6331;
   }
   html{
     font-size: 10px;
@@ -24,6 +25,12 @@ const GlobalStyles = createGlobalStyle`
   }
   a{
     text-decoration: none;
+  }
+  a:hover{
+    color: var(--orange);
+  }
+  p.hero_intro:hover{
+    color: var(--orange);
   }
   img, svg{
     width: 100%;
