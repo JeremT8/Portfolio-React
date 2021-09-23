@@ -44,6 +44,16 @@ const GlobalStyles = createGlobalStyle`
     max-width: 1200px;
     margin: 0 auto;
   }
+  .copyright {
+    display:flex;
+  }
+
+  a.CV_link{
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  }
 /* Smooth Scroll  */
   [data-scrollbar] {
     height: 100vh;

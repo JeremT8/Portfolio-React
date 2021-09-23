@@ -86,17 +86,16 @@ export default function About() {
               <h2 className="about__heading">Un développeur Full Stack Junior</h2>
               <div className="about__info">
                 <PText>
-                  Je suis originaire de Poitiers. Et comme ont dit ont est jamais mieux que chez soi.
-                  Depuis mon enfance j'ai toujours été attiré par ce qui concerne l'informatique, que ce soit les jeux vidéos ou bien la création.
-                  J'aimais aussi quelques fois dessiner ou même explorer des fichiers internes de mon PC sans me poser la question des conséquences, vous l'avez compris je suis curieux.
+                  Je suis originaire de Poitiers. Et comme ont dit, on est jamais mieux que chez soi.
+                  Depuis mon enfance, j'ai toujours été attiré par ce qui concerne l'informatique, que ce soient les jeux vidéo ou bien la création.
+                  J'aimais aussi quelques fois dessiner ou même explorer des fichiers internes de mon PC sans me poser la question des conséquences, vous l'avez compris, je suis curieux.
                   <br /> <br />
-                  J'ai terminé mes etudes par un Baccalauréat Professionnel afin de devenir Opticien, j'ai par la suite travaillé 4 années dans un magasin en tant que Monteur-Vendeur, ce qui m'a permis de découvrir le monde du travail ainsi que le développement personnel grâce aux responsabilités qu'on m'a confié.
+                  J'ai terminé mes études par un Baccalauréat Professionnel afin de devenir Opticien, j'ai par la suite travaillé 4 années dans un magasin en tant que Monteur-Vendeur, ce qui m'a permis de découvrir le monde du travail ainsi que le développement personnel grâce aux responsabilités qu'on m'a confié.                  <br />
                   <br />
-                  <br />
-                  Et puis en 2020, j'ai décidé de quitter mon Job et de suivre une formation de reconversion professionnel dans le développement informatique. Grâce à cette experience j'ai pu développer également mon mental et ma determination.
+                  Et puis en 2020, j'ai décidé de quitter mon Job et de suivre une formation de reconversion professionnelle dans le développement informatique. Grâce à cette expérience, j'ai pu développer également mon mental et ma détermination.
                 </PText>
               </div>
-              <Button btnText="Télécharger mon CV" btnLink="#" />
+              <a className="CV_link" href="https://drive.google.com/file/d/1sON-kFWiNwUdFoyv1JMtV6zf9ys_f1pL/view" target="_blank"> Telecharger mon CV </a>
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />

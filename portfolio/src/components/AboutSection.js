@@ -50,6 +50,7 @@ const AboutSectionStyles = styled.div`
     }
     .aboutSection__right {
       margin-top: 3rem;
+      display: -webkit-box;
     }
     .section-title {
       text-align: center;
@@ -80,9 +81,7 @@ export default function AboutSection() {
             heading="Qui suis-je ? "
           />
           <PText>
-            Je suis un jeune développeur web situé au alentour de Poitiers, Dynamique et passionné du Web depuis longtemps je n'ai pas exercé ce metier en premier
-            j'ai d'abord fais des etudes en Optique Lunetterie pour ensuite me reconvertir en 2020. Après une formation j'ai pu acquérir devant un jury de professionnel mon Titre professionnel
-            de niveau 5 : Développeur Web et Web Mobile.
+          Je suis un jeune développeur web situé au alentour de Poitiers, Dynamique et passionné du Web depuis longtemps, je n'ai pas exercé ce métier en premier, j'ai d'abord fait des études en Optique Lunetterie pour ensuite me reconvertir en 2020. Après une formation, j'ai pu acquérir devant un jury de professionnel mon Titre professionnel de niveau 5 : développeur Web et Web Mobile.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Mes Travaux" btnLink="/projects" />

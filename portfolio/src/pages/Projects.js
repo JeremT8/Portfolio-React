@@ -68,8 +68,8 @@ export default function Projects() {
       <ProjectStyle>
         <div className="container">
           <SectionTitle
-            heading="Projects"
-            subheading="some of my recent works"
+            heading="Projets"
+            subheading="Quelques projets récents"
           />
           <div className="projects__searchBar">
             <form>
@@ -77,7 +77,7 @@ export default function Projects() {
                 type="text"
                 value={searchText}
                 onChange={handleChange}
-                placeholder="Project Name"
+                placeholder="Nom du projet"
               />
               <MdSearch className="searchIcon" />
             </form>

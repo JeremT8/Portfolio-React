@@ -9,6 +9,7 @@ const FooterStyle = styled.div`
   .container {
     display: flex;
     gap: 3rem;
+    text-align: center;
   }
   .footer__col1 {
     flex: 2;
@@ -59,8 +60,9 @@ export default function Footer() {
         <div className="footer__col1">
           <h1 className="footer__col1__title">Jeremy Tillet</h1>
           <PText>
-            Développeur Full Stack avec un préference pour le Front-End. 
-            Attaché au design, je produis des sites internets design, responsive, en respectant les normes UI et UX. 
+          Développeur Full Stack avec une préférence pour le Front-End.
+          <br />
+           Attaché au design, je produis des sites internets design, responsive, en respectant les normes UI et UX.
           </PText>
         </div>
         <div className="footer__col2">
