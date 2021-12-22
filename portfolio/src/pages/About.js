@@ -95,7 +95,7 @@ export default function About() {
                   Et puis en 2020, j'ai décidé de quitter mon Job et de suivre une formation de reconversion professionnelle dans le développement informatique. Grâce à cette expérience, j'ai pu développer également mon mental et ma détermination.
                 </PText>
               </div>
-              <a className="CV_link" href="https://drive.google.com/file/d/1sON-kFWiNwUdFoyv1JMtV6zf9ys_f1pL/view" target="_blank"> Telecharger mon CV </a>
+              <a className="CV_link" href="https://drive.google.com/file/d/1sON-kFWiNwUdFoyv1JMtV6zf9ys_f1pL/view"> Telecharger mon CV </a>
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
@@ -107,7 +107,7 @@ export default function About() {
 
               <AboutInfoItem
                 title="Formation :"
-                items={["O'Clock, format télépresentiel / Formation Développeur Web et Web Mobile  -> Obtenue"]}
+                items={['O\'Clock, format télépresentiel / Formation Développeur Web et Web Mobile  -> Obtenue']}
               />
               <AboutInfoItem
                 title="Lycée :"

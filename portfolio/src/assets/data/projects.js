@@ -9,29 +9,25 @@ const projects = [
   {
     id: uuidv4(),
     name: 'Find 6 Friends',
-    desc:
-      "Une application web permettant de trouver des compagnons de jeu sur Tom Clancy's Rainbow Six Siege.",
+    desc: 'Une application web permettant de trouver des compagnons de jeu sur Rainbow Six Siege.',
     img: CavinImg,
   },
   {
     id: uuidv4(),
     name: 'MID-eSport',
-    desc:
-      "Un site d'actualités tourné sur le monde de l'eSport et de la eCompetition.",
+    desc: 'Un site de news tourné sur le monde eSport et de la eCompetition.',
     img: CoinTrackerImg,
   },
   {
     id: uuidv4(),
     name: 'MyFlix',
-    desc:
-      'Création de mon site de streaming vidéo.',
+    desc: 'Création de mon site de streaming vidéo.',
     img: GreenCtgImg,
   },
   {
     id: uuidv4(),
-    name: "Mon Portfolio",
-    desc:
-      'Réalisation de mon portfolio, en utilisant ReactJS.',
+    name: 'Mon Portfolio',
+    desc: 'Réalisation de mon portfolio, en utilisant ReactJS.',
     img: UTrackerImg,
   },
 ];
